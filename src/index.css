@@ -1,11 +1,24 @@
+* {
+    box-sizing: border-box;
+
+}
+
 body {
-    background: #282D35;
     color: #FFF;
     margin: 0 auto;
     padding: 0;
     font-family: 'Inter', sans-serif;
     width: 550px;
+    background-color: #a2acbd;
 }
+
+/* bold font */
+.heading,
+.react-facts-logo {
+    font-weight: 700;
+}
+
+/* Header styles */
 
 header {
     background-color: #21222A;
@@ -22,6 +35,37 @@ header {
 
 .react-facts-logo {
     font-size: 1.39rem;
-    font-weight: 700;
+}
+
+/* Main styles */
+
+main {
+    background-color: #282D35;
+    background-image: url(/src/assets/react-logo-half.png);
+    background-repeat: no-repeat;
+    background-position: right 60%;
+    padding-bottom: 125px;
+}
+
+.heading {
+    font-size: 2.4375rem;
+    letter-spacing: -2px;
+    margin: 0 0 46px 1.625rem;
+    padding-top: 57px;
+}
+
+ul {
+    padding-left: 65px;
+    margin: 0;
+}
+
+li {
+    margin-block:19px;
+    width: 390px;
+}
+
+li::marker {
+    color: #61DAFB;
+    font-size: 1.5rem;
 }
  
